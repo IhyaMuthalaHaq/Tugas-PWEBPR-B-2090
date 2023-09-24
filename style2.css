@@ -1,0 +1,82 @@
+/* Responsif untuk smartphone */
+@media (max-width: 320px) {
+    .login-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .login-options {
+        gap: 5px;
+    }
+
+    .login-option {
+        padding: 8px;
+    }
+}
+
+/* Responsif untuk laptop */
+@media (min-width: 1080px) {
+    .login-title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .login-options {
+        gap: 15px;
+    }
+
+    .login-option {
+        padding: 12px;
+    }
+}
+
+/* Style tambahan untuk halaman login */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-option {
+  padding: 10px;
+  background-color: #784ee2;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-option:hover {
+  background-color: #6600ff;
+}
+
+.login-option:last-child {
+  margin-top: 20px;
+}
